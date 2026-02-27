@@ -1,0 +1,133 @@
+run_id: run_20260211_085003Z
+timestamp_utc: 2026-02-11T08:50:13Z
+module: base_perftests_loader
+full_test_name: PartitionAllocMemoryAllocationPerfTest.SingleBucket/7
+status: PASSED
+return_code: 0
+duration_sec: 7.394
+command: /home/ubuntu/youtube/cobalt_evergreen/unit_test/.env/bin/python3 /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/base_perftests_loader.py -- --gtest_filter=PartitionAllocMemoryAllocationPerfTest.SingleBucket/7
+
+===== STDOUT =====
+[elf_loader_sand/2095630:0211/085010.971458(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971484(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971511(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971532(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971557(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971581(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971607(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971631(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971655(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971682(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971707(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971731(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971753(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971780(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971804(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971827(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971852(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971881(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971903(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971929(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971953(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.971978(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972002(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972027(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972055(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972080(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972103(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972125(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972149(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972180(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972202(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972228(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972257(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972281(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972321(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972344(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972367(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972391(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972414(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972440(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972463(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972486(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972511(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972536(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972557(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972578(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972602(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972629(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972649(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972672(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972694(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972717(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972738(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972760(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972783(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972805(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972826(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972848(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972871(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972893(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972915(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972939(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972966(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.972987(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973011(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973033(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973054(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973075(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973099(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973128(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973151(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973174(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973196(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973223(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973253(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973278(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973313(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973343(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973366(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973390(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973414(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973437(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973462(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973490(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973515(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973540(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973567(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973590(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2095630:0211/085010.973618(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[       OK ] PartitionAllocMemoryAllocationPerfTest.SingleBucket/7 (4547 ms)
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest (4548 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4548 ms total)
+[  PASSED  ] 1 test.
+
+[elf_loader_sand/2095630:0211/085006.420588(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2095630:0211/085006.420607(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2095630:0211/085006.420611(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2095630:0211/085006.420615(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2095630:0211/085006.420619(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__cxa_thread_atexit_impl'.
+[elf_loader_sand/2095630:0211/085006.420626(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'dl_iterate_phdr'.
+[elf_loader_sand/2095630:0211/085006.420631(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'statx'.
+[elf_loader_sand/2095630:0211/085006.420648(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_getcpu'.
+[elf_loader_sand/2095630:0211/085006.420653(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'alarm'.
+[elf_loader_sand/2095630:0211/085006.420658(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sigaltstack'.
+[elf_loader_sand/2095630:0211/085006.420661(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2095630:0211/085006.420665(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2095630:0211/085006.420667(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2095630:0211/085006.420673(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2095630:0211/085006.420681(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '_Exit'.
+[elf_loader_sand/2095630:0211/085006.420692(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_setscheduler'.
+[elf_loader_sand/2095630:0211/085006.420701(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'getloadavg'.
+[elf_loader_sand/2095630:0211/085006.420707(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'memfd_create'.
+[elf_loader_sand/2095630:0211/085006.420716(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'fputwc'.
+[elf_loader_sand/2095630:0211/085006.421607(UTC):ERROR:elf_loader_sandbox.cc(81)] Failed to get user agent string
+[2095630:/2095630:ERROR:base/starboard/debugger_starboard.cc:27] Not implemented reached in void base::debug::VerifyDebugger()
+[2095630:/2095630:ERROR:base/process/launch_starboard.cc:28] Not implemented reached in void base::RaiseProcessToHighPriority()
+[INFO:partition_alloc_perftest.cc(387)] RESULTSCSV: 2,1,2582590,1239779
+Failed to match any benchmarks against regex: .
+
+===== STDERR =====
+

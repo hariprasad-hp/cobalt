@@ -1,0 +1,65 @@
+run_id: run_20260211_081348Z
+timestamp_utc: 2026-02-11T08:13:53Z
+module: base_perftests_loader
+full_test_name: PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/18
+status: PASSED
+return_code: 0
+duration_sec: 3.152
+command: /home/ubuntu/youtube/cobalt_evergreen/unit_test/.env/bin/python3 /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/base_perftests_loader.py -- --gtest_filter=PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/18
+
+===== STDOUT =====
+[elf_loader_sand/2075592:0211/081350.718993(UTC):WARNING:pulse_audio_sink_type.cc(471)] Pulse audio warning: cannot connect to context.
+[elf_loader_sand/2075592:0211/081350.719159(UTC):INFO:audio_sink_type_dispatcher.cc(32)] Use ALSA
+[elf_loader_sand/2075592:0211/081350.721379(UTC):INFO:elf_loader.cc(83)] evergreen_config: content_path=/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/.
+[elf_loader_sand/2075592:0211/081350.721388(UTC):INFO:elf_loader_impl.cc(63)] Loading /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so
+[elf_loader_sand/2075592:0211/081350.721416(UTC):INFO:program_table.cc(377)] Load start=0x7ee6ff03c000 base_memory_address=0x7ee6ff03c000
+[elf_loader_sand/2075592:0211/081351.516768(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2075592:0211/081351.517615(UTC):INFO:elf_loader.cc(84)] Loading completed: elapsed(usec)=796'224
+[elf_loader_sand/2075592:0211/081351.517625(UTC):INFO:elf_loader_sandbox.cc(56)] Successfully loaded '/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so'.
+[0211/134351.517649:INFO:crashpad_client_linux.cc(414)] Added evergreen info: --evergreen-information=0x5859751aff98
+[elf_loader_sand/2075592:0211/081351.517673(UTC):INFO:elf_loader_sandbox.cc(64)] Loaded Cobalt library information into Crashpad.
+[elf_loader_sand/2075592:0211/081351.517684(UTC):INFO:elf_loader_sandbox.cc(99)] Found SbEventHandle at address: 0x7ee6ff967020
+Note: Google Test filter = PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/18
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest
+[ RUN      ] PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/18
+[elf_loader_sand/2075592:0211/081351.523229(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+*RESULT MemoryAllocation.throughput: MemoryAllocation.MultiBucketWithFree_System_4_total= 263434464 runs/s
+*RESULT MemoryAllocation.time_per_allocation: MemoryAllocation.MultiBucketWithFree_System_4_total= 3 ns
+*RESULT MemoryAllocation.throughput: MemoryAllocation.MultiBucketWithFree_System_4_worst= 61249612 runs/s
+*RESULT MemoryAllocation.time_per_allocation: MemoryAllocation.MultiBucketWithFree_System_4_worst= 16 ns
+[       OK ] PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/18 (2051 ms)
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest (2053 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2053 ms total)
+[  PASSED  ] 1 test.
+
+[elf_loader_sand/2075592:0211/081351.516487(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2075592:0211/081351.516515(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2075592:0211/081351.516520(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2075592:0211/081351.516525(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2075592:0211/081351.516531(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__cxa_thread_atexit_impl'.
+[elf_loader_sand/2075592:0211/081351.516540(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'dl_iterate_phdr'.
+[elf_loader_sand/2075592:0211/081351.516546(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'statx'.
+[elf_loader_sand/2075592:0211/081351.516568(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_getcpu'.
+[elf_loader_sand/2075592:0211/081351.516579(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'alarm'.
+[elf_loader_sand/2075592:0211/081351.516585(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sigaltstack'.
+[elf_loader_sand/2075592:0211/081351.516591(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2075592:0211/081351.516595(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2075592:0211/081351.516599(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2075592:0211/081351.516603(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2075592:0211/081351.516613(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '_Exit'.
+[elf_loader_sand/2075592:0211/081351.516626(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_setscheduler'.
+[elf_loader_sand/2075592:0211/081351.516634(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'getloadavg'.
+[elf_loader_sand/2075592:0211/081351.516641(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'memfd_create'.
+[elf_loader_sand/2075592:0211/081351.516651(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'fputwc'.
+[elf_loader_sand/2075592:0211/081351.517679(UTC):ERROR:elf_loader_sandbox.cc(81)] Failed to get user agent string
+[2075592:/2075592:ERROR:base/starboard/debugger_starboard.cc:27] Not implemented reached in void base::debug::VerifyDebugger()
+[2075592:/2075592:ERROR:base/process/launch_starboard.cc:28] Not implemented reached in void base::RaiseProcessToHighPriority()
+[INFO:partition_alloc_perftest.cc(387)] RESULTSCSV: 4,0,263434460,61249612
+Failed to match any benchmarks against regex: .
+
+===== STDERR =====
+

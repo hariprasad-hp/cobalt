@@ -1,0 +1,61 @@
+run_id: run_20260211_071401Z
+timestamp_utc: 2026-02-11T07:14:06Z
+module: base_perftests_loader
+full_test_name: JobPerfTest.BusyWaitNaiveAssignment
+status: PASSED
+return_code: 0
+duration_sec: 1.611
+command: /home/ubuntu/youtube/cobalt_evergreen/unit_test/.env/bin/python3 /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/base_perftests_loader.py -- --gtest_filter=JobPerfTest.BusyWaitNaiveAssignment
+
+===== STDOUT =====
+[elf_loader_sand/2045047:0211/071404.751803(UTC):WARNING:pulse_audio_sink_type.cc(471)] Pulse audio warning: cannot connect to context.
+[elf_loader_sand/2045047:0211/071404.751979(UTC):INFO:audio_sink_type_dispatcher.cc(32)] Use ALSA
+[elf_loader_sand/2045047:0211/071404.754682(UTC):INFO:elf_loader.cc(83)] evergreen_config: content_path=/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/.
+[elf_loader_sand/2045047:0211/071404.754692(UTC):INFO:elf_loader_impl.cc(63)] Loading /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so
+[elf_loader_sand/2045047:0211/071404.754725(UTC):INFO:program_table.cc(377)] Load start=0x74d5a303c000 base_memory_address=0x74d5a303c000
+[elf_loader_sand/2045047:0211/071405.483669(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2045047:0211/071405.484270(UTC):INFO:elf_loader.cc(84)] Loading completed: elapsed(usec)=729'576
+[elf_loader_sand/2045047:0211/071405.484279(UTC):INFO:elf_loader_sandbox.cc(56)] Successfully loaded '/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so'.
+[0211/124405.484320:INFO:crashpad_client_linux.cc(414)] Added evergreen info: --evergreen-information=0x5c60f3b3ade8
+[elf_loader_sand/2045047:0211/071405.484337(UTC):INFO:elf_loader_sandbox.cc(64)] Loaded Cobalt library information into Crashpad.
+[elf_loader_sand/2045047:0211/071405.484347(UTC):INFO:elf_loader_sandbox.cc(99)] Found SbEventHandle at address: 0x74d5a3967020
+Note: Google Test filter = JobPerfTest.BusyWaitNaiveAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from JobPerfTest
+[ RUN      ] JobPerfTest.BusyWaitNaiveAssignment
+[elf_loader_sand/2045047:0211/071405.488082(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+*RESULT Job.work_throughput: busy_wait_naive= 772 tasks/ms
+[       OK ] JobPerfTest.BusyWaitNaiveAssignment (649 ms)
+[----------] 1 test from JobPerfTest (650 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (650 ms total)
+[  PASSED  ] 1 test.
+
+[elf_loader_sand/2045047:0211/071405.483457(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2045047:0211/071405.483478(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2045047:0211/071405.483483(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2045047:0211/071405.483487(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2045047:0211/071405.483493(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__cxa_thread_atexit_impl'.
+[elf_loader_sand/2045047:0211/071405.483499(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'dl_iterate_phdr'.
+[elf_loader_sand/2045047:0211/071405.483503(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'statx'.
+[elf_loader_sand/2045047:0211/071405.483520(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_getcpu'.
+[elf_loader_sand/2045047:0211/071405.483524(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'alarm'.
+[elf_loader_sand/2045047:0211/071405.483528(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sigaltstack'.
+[elf_loader_sand/2045047:0211/071405.483532(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2045047:0211/071405.483535(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2045047:0211/071405.483538(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2045047:0211/071405.483542(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2045047:0211/071405.483550(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '_Exit'.
+[elf_loader_sand/2045047:0211/071405.483561(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_setscheduler'.
+[elf_loader_sand/2045047:0211/071405.483568(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'getloadavg'.
+[elf_loader_sand/2045047:0211/071405.483572(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'memfd_create'.
+[elf_loader_sand/2045047:0211/071405.483582(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'fputwc'.
+[elf_loader_sand/2045047:0211/071405.484343(UTC):ERROR:elf_loader_sandbox.cc(81)] Failed to get user agent string
+[2045047:/2045047:ERROR:base/starboard/debugger_starboard.cc:27] Not implemented reached in void base::debug::VerifyDebugger()
+[2045047:/2045047:ERROR:base/process/launch_starboard.cc:28] Not implemented reached in void base::RaiseProcessToHighPriority()
+Failed to match any benchmarks against regex: .
+
+===== STDERR =====
+

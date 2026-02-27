@@ -1,0 +1,64 @@
+run_id: run_20260211_071401Z
+timestamp_utc: 2026-02-11T07:14:13Z
+module: base_perftests_loader
+full_test_name: PartitionAllocMemoryAllocationPerfTest.SingleBucket/21
+status: PASSED
+return_code: 0
+duration_sec: 8.407
+command: /home/ubuntu/youtube/cobalt_evergreen/unit_test/.env/bin/python3 /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/base_perftests_loader.py -- --gtest_filter=PartitionAllocMemoryAllocationPerfTest.SingleBucket/21
+
+===== STDOUT =====
+[elf_loader_sand/2044316:0211/071404.589062(UTC):INFO:audio_sink_type_dispatcher.cc(30)] Use PulseAudio
+[elf_loader_sand/2044316:0211/071404.591558(UTC):INFO:elf_loader.cc(83)] evergreen_config: content_path=/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/.
+[elf_loader_sand/2044316:0211/071404.591571(UTC):INFO:elf_loader_impl.cc(63)] Loading /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so
+[elf_loader_sand/2044316:0211/071404.591616(UTC):INFO:program_table.cc(377)] Load start=0x73720a03a000 base_memory_address=0x73720a03a000
+[elf_loader_sand/2044316:0211/071405.360160(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2044316:0211/071405.360946(UTC):INFO:elf_loader.cc(84)] Loading completed: elapsed(usec)=769'375
+[elf_loader_sand/2044316:0211/071405.360956(UTC):INFO:elf_loader_sandbox.cc(56)] Successfully loaded '/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so'.
+[0211/124405.360987:INFO:crashpad_client_linux.cc(414)] Added evergreen info: --evergreen-information=0x57f509403ee8
+[elf_loader_sand/2044316:0211/071405.361009(UTC):INFO:elf_loader_sandbox.cc(64)] Loaded Cobalt library information into Crashpad.
+[elf_loader_sand/2044316:0211/071405.361019(UTC):INFO:elf_loader_sandbox.cc(99)] Found SbEventHandle at address: 0x73720a965020
+Note: Google Test filter = PartitionAllocMemoryAllocationPerfTest.SingleBucket/21
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest
+[ RUN      ] PartitionAllocMemoryAllocationPerfTest.SingleBucket/21
+[elf_loader_sand/2044316:0211/071405.366319(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+*RESULT MemoryAllocation.throughput: MemoryAllocation.SingleBucket_System_4_total= 7047252 runs/s
+*RESULT MemoryAllocation.time_per_allocation: MemoryAllocation.SingleBucket_System_4_total= 141 ns
+*RESULT MemoryAllocation.throughput: MemoryAllocation.SingleBucket_System_4_worst= 1442638 runs/s
+*RESULT MemoryAllocation.time_per_allocation: MemoryAllocation.SingleBucket_System_4_worst= 693 ns
+[       OK ] PartitionAllocMemoryAllocationPerfTest.SingleBucket/21 (3447 ms)
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest (3449 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3449 ms total)
+[  PASSED  ] 1 test.
+
+[elf_loader_sand/2044316:0211/071405.359905(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2044316:0211/071405.359934(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2044316:0211/071405.359939(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2044316:0211/071405.359943(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2044316:0211/071405.359949(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__cxa_thread_atexit_impl'.
+[elf_loader_sand/2044316:0211/071405.359957(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'dl_iterate_phdr'.
+[elf_loader_sand/2044316:0211/071405.359964(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'statx'.
+[elf_loader_sand/2044316:0211/071405.359983(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_getcpu'.
+[elf_loader_sand/2044316:0211/071405.359990(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'alarm'.
+[elf_loader_sand/2044316:0211/071405.359995(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sigaltstack'.
+[elf_loader_sand/2044316:0211/071405.360000(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2044316:0211/071405.360005(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2044316:0211/071405.360008(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2044316:0211/071405.360012(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2044316:0211/071405.360021(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '_Exit'.
+[elf_loader_sand/2044316:0211/071405.360033(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_setscheduler'.
+[elf_loader_sand/2044316:0211/071405.360044(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'getloadavg'.
+[elf_loader_sand/2044316:0211/071405.360050(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'memfd_create'.
+[elf_loader_sand/2044316:0211/071405.360060(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'fputwc'.
+[elf_loader_sand/2044316:0211/071405.361015(UTC):ERROR:elf_loader_sandbox.cc(81)] Failed to get user agent string
+[2044316:/2044316:ERROR:base/starboard/debugger_starboard.cc:27] Not implemented reached in void base::debug::VerifyDebugger()
+[2044316:/2044316:ERROR:base/process/launch_starboard.cc:28] Not implemented reached in void base::RaiseProcessToHighPriority()
+[INFO:partition_alloc_perftest.cc(387)] RESULTSCSV: 4,0,7047252,1442638
+Failed to match any benchmarks against regex: .
+
+===== STDERR =====
+

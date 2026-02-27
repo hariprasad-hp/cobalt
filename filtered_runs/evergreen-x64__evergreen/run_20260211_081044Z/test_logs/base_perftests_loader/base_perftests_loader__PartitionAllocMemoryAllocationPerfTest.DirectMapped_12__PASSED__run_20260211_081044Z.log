@@ -1,0 +1,65 @@
+run_id: run_20260211_081044Z
+timestamp_utc: 2026-02-11T08:10:50Z
+module: base_perftests_loader
+full_test_name: PartitionAllocMemoryAllocationPerfTest.DirectMapped/12
+status: PASSED
+return_code: 0
+duration_sec: 3.279
+command: /home/ubuntu/youtube/cobalt_evergreen/unit_test/.env/bin/python3 /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/base_perftests_loader.py -- --gtest_filter=PartitionAllocMemoryAllocationPerfTest.DirectMapped/12
+
+===== STDOUT =====
+[elf_loader_sand/2072900:0211/081047.068680(UTC):WARNING:pulse_audio_sink_type.cc(471)] Pulse audio warning: cannot connect to context.
+[elf_loader_sand/2072900:0211/081047.068830(UTC):INFO:audio_sink_type_dispatcher.cc(32)] Use ALSA
+[elf_loader_sand/2072900:0211/081047.070992(UTC):INFO:elf_loader.cc(83)] evergreen_config: content_path=/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/.
+[elf_loader_sand/2072900:0211/081047.071001(UTC):INFO:elf_loader_impl.cc(63)] Loading /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so
+[elf_loader_sand/2072900:0211/081047.071031(UTC):INFO:program_table.cc(377)] Load start=0x79c5eb03c000 base_memory_address=0x79c5eb03c000
+[elf_loader_sand/2072900:0211/081047.841267(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2072900:0211/081047.841893(UTC):INFO:elf_loader.cc(84)] Loading completed: elapsed(usec)=770'890
+[elf_loader_sand/2072900:0211/081047.841902(UTC):INFO:elf_loader_sandbox.cc(56)] Successfully loaded '/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so'.
+[0211/134047.841925:INFO:crashpad_client_linux.cc(414)] Added evergreen info: --evergreen-information=0x57f81f5cff68
+[elf_loader_sand/2072900:0211/081047.841946(UTC):INFO:elf_loader_sandbox.cc(64)] Loaded Cobalt library information into Crashpad.
+[elf_loader_sand/2072900:0211/081047.841956(UTC):INFO:elf_loader_sandbox.cc(99)] Found SbEventHandle at address: 0x79c5eb967020
+Note: Google Test filter = PartitionAllocMemoryAllocationPerfTest.DirectMapped/12
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest
+[ RUN      ] PartitionAllocMemoryAllocationPerfTest.DirectMapped/12
+[elf_loader_sand/2072900:0211/081047.845819(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+*RESULT MemoryAllocation.throughput: MemoryAllocation.DirectMapped_System_3_total= 9975442 runs/s
+*RESULT MemoryAllocation.time_per_allocation: MemoryAllocation.DirectMapped_System_3_total= 100 ns
+*RESULT MemoryAllocation.throughput: MemoryAllocation.DirectMapped_System_3_worst= 442873 runs/s
+*RESULT MemoryAllocation.time_per_allocation: MemoryAllocation.DirectMapped_System_3_worst= 2257 ns
+[       OK ] PartitionAllocMemoryAllocationPerfTest.DirectMapped/12 (2086 ms)
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest (2087 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2087 ms total)
+[  PASSED  ] 1 test.
+
+[elf_loader_sand/2072900:0211/081047.841010(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2072900:0211/081047.841045(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2072900:0211/081047.841049(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2072900:0211/081047.841052(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2072900:0211/081047.841060(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__cxa_thread_atexit_impl'.
+[elf_loader_sand/2072900:0211/081047.841067(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'dl_iterate_phdr'.
+[elf_loader_sand/2072900:0211/081047.841071(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'statx'.
+[elf_loader_sand/2072900:0211/081047.841088(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_getcpu'.
+[elf_loader_sand/2072900:0211/081047.841092(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'alarm'.
+[elf_loader_sand/2072900:0211/081047.841096(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sigaltstack'.
+[elf_loader_sand/2072900:0211/081047.841100(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2072900:0211/081047.841103(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2072900:0211/081047.841106(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2072900:0211/081047.841108(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2072900:0211/081047.841117(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '_Exit'.
+[elf_loader_sand/2072900:0211/081047.841126(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_setscheduler'.
+[elf_loader_sand/2072900:0211/081047.841132(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'getloadavg'.
+[elf_loader_sand/2072900:0211/081047.841137(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'memfd_create'.
+[elf_loader_sand/2072900:0211/081047.841145(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'fputwc'.
+[elf_loader_sand/2072900:0211/081047.841951(UTC):ERROR:elf_loader_sandbox.cc(81)] Failed to get user agent string
+[2072900:/2072900:ERROR:base/starboard/debugger_starboard.cc:27] Not implemented reached in void base::debug::VerifyDebugger()
+[2072900:/2072900:ERROR:base/process/launch_starboard.cc:28] Not implemented reached in void base::RaiseProcessToHighPriority()
+[INFO:partition_alloc_perftest.cc(387)] RESULTSCSV: 3,0,9975442,442873
+Failed to match any benchmarks against regex: .
+
+===== STDERR =====
+

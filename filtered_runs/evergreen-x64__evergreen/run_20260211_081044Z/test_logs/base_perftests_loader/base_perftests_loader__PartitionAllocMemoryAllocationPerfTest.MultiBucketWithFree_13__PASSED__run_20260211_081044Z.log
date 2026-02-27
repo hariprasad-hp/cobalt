@@ -1,0 +1,66 @@
+run_id: run_20260211_081044Z
+timestamp_utc: 2026-02-11T08:10:56Z
+module: base_perftests_loader
+full_test_name: PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/13
+status: PASSED
+return_code: 0
+duration_sec: 9.081
+command: /home/ubuntu/youtube/cobalt_evergreen/unit_test/.env/bin/python3 /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/base_perftests_loader.py -- --gtest_filter=PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/13
+
+===== STDOUT =====
+[elf_loader_sand/2072651:0211/081047.028063(UTC):WARNING:pulse_audio_sink_type.cc(471)] Pulse audio warning: cannot connect to context.
+[elf_loader_sand/2072651:0211/081047.028198(UTC):INFO:audio_sink_type_dispatcher.cc(32)] Use ALSA
+[elf_loader_sand/2072651:0211/081047.031389(UTC):INFO:elf_loader.cc(83)] evergreen_config: content_path=/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/.
+[elf_loader_sand/2072651:0211/081047.031406(UTC):INFO:elf_loader_impl.cc(63)] Loading /home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so
+[elf_loader_sand/2072651:0211/081047.031460(UTC):INFO:program_table.cc(377)] Load start=0x76e0f303c000 base_memory_address=0x76e0f303c000
+[elf_loader_sand/2072651:0211/081047.827542(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[elf_loader_sand/2072651:0211/081047.828190(UTC):INFO:elf_loader.cc(84)] Loading completed: elapsed(usec)=796'785
+[elf_loader_sand/2072651:0211/081047.828198(UTC):INFO:elf_loader_sandbox.cc(56)] Successfully loaded '/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/libbase_perftests.so'.
+[0211/134047.828220:INFO:crashpad_client_linux.cc(414)] Added evergreen info: --evergreen-information=0x5bd0b5b3cf98
+[elf_loader_sand/2072651:0211/081047.828245(UTC):INFO:elf_loader_sandbox.cc(64)] Loaded Cobalt library information into Crashpad.
+[elf_loader_sand/2072651:0211/081047.828252(UTC):INFO:elf_loader_sandbox.cc(99)] Found SbEventHandle at address: 0x76e0f3967020
+Note: Google Test filter = PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/13
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest
+[ RUN      ] PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/13
+[elf_loader_sand/2072651:0211/081047.832365(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+*RESULT MemoryAllocation.throughput: MemoryAllocation.MultiBucketWithFree_PartitionAlloc_3_total= 1180836 runs/s
+*RESULT MemoryAllocation.time_per_allocation: MemoryAllocation.MultiBucketWithFree_PartitionAlloc_3_total= 846 ns
+*RESULT MemoryAllocation.throughput: MemoryAllocation.MultiBucketWithFree_PartitionAlloc_3_worst= 380913 runs/s
+*RESULT MemoryAllocation.time_per_allocation: MemoryAllocation.MultiBucketWithFree_PartitionAlloc_3_worst= 2625 ns
+[elf_loader_sand/2072651:0211/081054.377026(UTC):WARNING:starboard_layer_posix_prctl_abi_wrappers.cc(65)] Unknown musl prctl operation: 1398164801
+[       OK ] PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/13 (6544 ms)
+[----------] 1 test from PartitionAllocMemoryAllocationPerfTest (6545 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6546 ms total)
+[  PASSED  ] 1 test.
+
+[elf_loader_sand/2072651:0211/081047.827266(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2072651:0211/081047.827310(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2072651:0211/081047.827314(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2072651:0211/081047.827318(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2072651:0211/081047.827323(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__cxa_thread_atexit_impl'.
+[elf_loader_sand/2072651:0211/081047.827330(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'dl_iterate_phdr'.
+[elf_loader_sand/2072651:0211/081047.827335(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'statx'.
+[elf_loader_sand/2072651:0211/081047.827353(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_getcpu'.
+[elf_loader_sand/2072651:0211/081047.827358(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'alarm'.
+[elf_loader_sand/2072651:0211/081047.827362(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sigaltstack'.
+[elf_loader_sand/2072651:0211/081047.827367(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_dump'.
+[elf_loader_sand/2072651:0211/081047.827370(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_dump'.
+[elf_loader_sand/2072651:0211/081047.827373(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '__gcov_flush'.
+[elf_loader_sand/2072651:0211/081047.827375(UTC):ERROR:exported_symbols.cc(441)] Fallback dlsym failed for '__gcov_flush'.
+[elf_loader_sand/2072651:0211/081047.827384(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of '_Exit'.
+[elf_loader_sand/2072651:0211/081047.827393(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'sched_setscheduler'.
+[elf_loader_sand/2072651:0211/081047.827400(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'getloadavg'.
+[elf_loader_sand/2072651:0211/081047.827405(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'memfd_create'.
+[elf_loader_sand/2072651:0211/081047.827414(UTC):ERROR:exported_symbols.cc(435)] Failed to retrieve the address of 'fputwc'.
+[elf_loader_sand/2072651:0211/081047.828250(UTC):ERROR:elf_loader_sandbox.cc(81)] Failed to get user agent string
+[2072651:/2072651:ERROR:base/starboard/debugger_starboard.cc:27] Not implemented reached in void base::debug::VerifyDebugger()
+[2072651:/2072651:ERROR:base/process/launch_starboard.cc:28] Not implemented reached in void base::RaiseProcessToHighPriority()
+[INFO:partition_alloc_perftest.cc(387)] RESULTSCSV: 3,1,1180836,380913
+Failed to match any benchmarks against regex: .
+
+===== STDERR =====
+

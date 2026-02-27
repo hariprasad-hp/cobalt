@@ -1,0 +1,162 @@
+2026-02-11T08:50:03Z [RUN] run_id=run_20260211_085003Z repo_root=/home/ubuntu/youtube/feb4/cobalt/src flavor=evergreen platform=evergreen-x64 out_dir=/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel filters_dir=/home/ubuntu/youtube/feb4/cobalt/src/cobalt/testing/filters/evergreen-x64
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/3 attempt=1 dur=1.015s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/14 attempt=1 dur=1.048s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/17 attempt=1 dur=1.050s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/23 attempt=1 dur=1.052s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/4 attempt=1 dur=1.068s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/15 attempt=1 dur=1.065s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/18 attempt=1 dur=1.060s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/6 attempt=1 dur=1.085s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/13 attempt=1 dur=1.078s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/9 attempt=1 dur=1.090s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/20 attempt=1 dur=1.080s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/1 attempt=1 dur=1.171s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/0 attempt=1 dur=1.166s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/8 attempt=1 dur=1.192s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/10 attempt=1 dur=1.181s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/22 attempt=1 dur=1.173s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/7 attempt=1 dur=1.193s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/21 attempt=1 dur=1.177s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/2 attempt=1 dur=1.205s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/16 attempt=1 dur=1.187s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/19 attempt=1 dur=1.182s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/11 attempt=1 dur=1.205s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/12 attempt=1 dur=1.195s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/5 attempt=1 dur=1.215s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader JobPerfTest.BusyWaitWorkDynamicAssignment attempt=1 dur=1.555s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader JobPerfTest.BusyWaitAtomicAssignment attempt=1 dur=1.573s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader JobPerfTest.BusyWaitNaiveAssignment attempt=1 dur=1.588s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader JobPerfTest.BusyWaitWorkLoopAround attempt=1 dur=1.614s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader JobPerfTest.BusyWaitDisruptedWorkAtomicAssignment attempt=1 dur=1.662s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader JobPerfTest.BusyWaitDisruptedWorkDynamicAssignment attempt=1 dur=1.735s rc=0 note=
+2026-02-11T08:50:07Z [PASSED] base_perftests_loader JobPerfTest.BusyWaitDisruptedWorkLoopAround attempt=1 dur=1.778s rc=0 note=
+2026-02-11T08:50:08Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/3 attempt=1 dur=2.853s rc=0 note=
+2026-02-11T08:50:08Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/0 attempt=1 dur=2.863s rc=0 note=
+2026-02-11T08:50:08Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/9 attempt=1 dur=2.870s rc=0 note=
+2026-02-11T08:50:08Z [PASSED] base_perftests_loader JobPerfTest.NoOpDisruptedWorkLoopAround attempt=1 dur=2.761s rc=0 note=
+2026-02-11T08:50:08Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/6 attempt=1 dur=2.998s rc=0 note=
+2026-02-11T08:50:08Z [PASSED] base_perftests_loader JobPerfTest.NoOpWorkAtomicAssignment attempt=1 dur=2.831s rc=0 note=
+2026-02-11T08:50:08Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/3 attempt=1 dur=3.000s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/12 attempt=1 dur=3.173s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/3 attempt=1 dur=3.191s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/0 attempt=1 dur=3.197s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/9 attempt=1 dur=3.198s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/0 attempt=1 dur=3.114s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/21 attempt=1 dur=3.192s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/8 attempt=1 dur=3.212s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/15 attempt=1 dur=3.206s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/3 attempt=1 dur=3.129s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/18 attempt=1 dur=3.205s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/9 attempt=1 dur=3.153s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/1 attempt=1 dur=3.229s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/0 attempt=1 dur=3.167s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/6 attempt=1 dur=3.162s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/2 attempt=1 dur=3.234s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/11 attempt=1 dur=3.223s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/20 attempt=1 dur=3.210s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/9 attempt=1 dur=3.135s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/5 attempt=1 dur=3.246s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/6 attempt=1 dur=3.245s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/14 attempt=1 dur=3.241s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/5 attempt=1 dur=3.190s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/12 attempt=1 dur=3.184s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/10 attempt=1 dur=3.255s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/23 attempt=1 dur=3.235s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/18 attempt=1 dur=3.188s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/21 attempt=1 dur=3.184s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/4 attempt=1 dur=3.284s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/12 attempt=1 dur=3.182s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/11 attempt=1 dur=3.227s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/2 attempt=1 dur=3.249s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/7 attempt=1 dur=3.316s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/13 attempt=1 dur=3.314s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/15 attempt=1 dur=3.260s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/6 attempt=1 dur=3.245s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/1 attempt=1 dur=3.288s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/23 attempt=1 dur=3.259s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/17 attempt=1 dur=3.336s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/17 attempt=1 dur=3.271s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/18 attempt=1 dur=3.256s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/8 attempt=1 dur=3.321s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/15 attempt=1 dur=3.274s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/16 attempt=1 dur=3.394s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/9 attempt=1 dur=3.380s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/21 attempt=1 dur=3.346s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/3 attempt=1 dur=3.470s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/20 attempt=1 dur=3.419s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader JobPerfTest.NoOpDisruptedWorkAtomicAssignment attempt=1 dur=3.360s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader JobPerfTest.NoOpDisruptedWorkDynamicAssignment attempt=1 dur=3.359s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/22 attempt=1 dur=3.548s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/4 attempt=1 dur=3.543s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/15 attempt=1 dur=3.635s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/14 attempt=1 dur=3.560s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/0 attempt=1 dur=3.625s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader JobPerfTest.NoOpWorkDynamicAssignment attempt=1 dur=3.502s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/19 attempt=1 dur=3.690s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/6 attempt=1 dur=3.707s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/4 attempt=1 dur=3.715s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/7 attempt=1 dur=3.699s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/12 attempt=1 dur=3.846s rc=0 note=
+2026-02-11T08:50:09Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/5 attempt=1 dur=3.887s rc=0 note=
+2026-02-11T08:50:10Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/2 attempt=1 dur=4.161s rc=0 note=
+2026-02-11T08:50:10Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/4 attempt=1 dur=4.284s rc=0 note=
+2026-02-11T08:50:10Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/21 attempt=1 dur=4.307s rc=0 note=
+2026-02-11T08:50:10Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/1 attempt=1 dur=4.388s rc=0 note=
+2026-02-11T08:50:10Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/18 attempt=1 dur=4.371s rc=0 note=
+2026-02-11T08:50:10Z [PASSED] base_perftests_loader JobPerfTest.NoOpWorkLoopAround attempt=1 dur=4.180s rc=0 note=
+2026-02-11T08:50:11Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/18 attempt=1 dur=5.564s rc=0 note=
+2026-02-11T08:50:12Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/15 attempt=1 dur=4.490s rc=0 note=
+2026-02-11T08:50:13Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/19 attempt=1 dur=6.488s rc=0 note=
+2026-02-11T08:50:13Z [FAILED] base_perftests_loader StackTracePerfTest.MultiObj/2 attempt=1 dur=4.299s rc=1 note=FAILED: [  FAILED  ]
+2026-02-11T08:50:13Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/22 attempt=1 dur=5.677s rc=0 note=
+2026-02-11T08:50:13Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/5 attempt=1 dur=5.866s rc=0 note=
+2026-02-11T08:50:13Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/1 attempt=1 dur=6.223s rc=0 note=
+2026-02-11T08:50:13Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/12 attempt=1 dur=6.210s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/11 attempt=1 dur=6.086s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/10 attempt=1 dur=7.196s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/21 attempt=1 dur=6.074s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/2 attempt=1 dur=5.637s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/16 attempt=1 dur=6.201s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/16 attempt=1 dur=6.172s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/20 attempt=1 dur=6.484s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/13 attempt=1 dur=8.004s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/13 attempt=1 dur=6.498s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/11 attempt=1 dur=6.207s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/8 attempt=1 dur=5.930s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/17 attempt=1 dur=7.510s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/10 attempt=1 dur=7.292s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/7 attempt=1 dur=7.394s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/7 attempt=1 dur=8.009s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/8 attempt=1 dur=6.434s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/17 attempt=1 dur=7.140s rc=0 note=
+2026-02-11T08:50:14Z [PASSED] base_perftests_loader JobPerfTest.NoOpWorkNaiveAssignment attempt=1 dur=8.322s rc=0 note=
+2026-02-11T08:50:15Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/10 attempt=1 dur=8.447s rc=0 note=
+2026-02-11T08:50:15Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/23 attempt=1 dur=7.827s rc=0 note=
+2026-02-11T08:50:15Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/13 attempt=1 dur=7.971s rc=0 note=
+2026-02-11T08:50:15Z [FAILED] base_perftests_loader StackTracePerfTest.MultiObj/0 attempt=1 dur=5.954s rc=1 note=FAILED: [  FAILED  ]
+2026-02-11T08:50:15Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/14 attempt=1 dur=8.443s rc=0 note=
+2026-02-11T08:50:15Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.SingleBucket/14 attempt=1 dur=8.516s rc=0 note=
+2026-02-11T08:50:15Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/23 attempt=1 dur=9.222s rc=0 note=
+2026-02-11T08:50:15Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/19 attempt=1 dur=9.225s rc=0 note=
+2026-02-11T08:50:15Z [FAILED] base_perftests_loader StackTracePerfTest.MultiObj/1 attempt=1 dur=6.961s rc=1 note=FAILED: [  FAILED  ]
+2026-02-11T08:50:15Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/20 attempt=1 dur=9.809s rc=0 note=
+2026-02-11T08:50:16Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/16 attempt=1 dur=10.099s rc=0 note=
+2026-02-11T08:50:16Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/22 attempt=1 dur=11.004s rc=0 note=
+2026-02-11T08:50:18Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/22 attempt=1 dur=12.545s rc=0 note=
+2026-02-11T08:50:20Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.MultiBucket/19 attempt=1 dur=14.398s rc=0 note=
+2026-02-11T08:50:55Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/1 attempt=1 dur=49.808s rc=0 note=
+2026-02-11T08:50:55Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/2 attempt=1 dur=49.952s rc=0 note=
+2026-02-11T08:51:04Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/10 attempt=1 dur=58.577s rc=0 note=
+2026-02-11T08:51:04Z [PASSED] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/7 attempt=1 dur=58.732s rc=0 note=
+2026-02-11T08:51:07Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/4 attempt=1 dur=60.320s rc=124 note=Timeout after 60s
+2026-02-11T08:51:07Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/19 attempt=1 dur=60.448s rc=124 note=Timeout after 60s
+2026-02-11T08:51:07Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/22 attempt=1 dur=60.775s rc=124 note=Timeout after 60s
+2026-02-11T08:51:07Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/5 attempt=1 dur=60.229s rc=124 note=Timeout after 60s
+2026-02-11T08:51:07Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/14 attempt=1 dur=60.551s rc=124 note=Timeout after 60s
+2026-02-11T08:51:07Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/11 attempt=1 dur=60.129s rc=124 note=Timeout after 60s
+2026-02-11T08:51:08Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/20 attempt=1 dur=61.540s rc=124 note=Timeout after 60s
+2026-02-11T08:51:08Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/23 attempt=1 dur=60.646s rc=124 note=Timeout after 60s
+2026-02-11T08:51:08Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/16 attempt=1 dur=61.698s rc=124 note=Timeout after 60s
+2026-02-11T08:51:08Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/8 attempt=1 dur=60.990s rc=124 note=Timeout after 60s
+2026-02-11T08:51:08Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/17 attempt=1 dur=61.252s rc=124 note=Timeout after 60s
+2026-02-11T08:51:08Z [TIMEOUT] base_perftests_loader PartitionAllocMemoryAllocationPerfTest.DirectMapped/13 attempt=1 dur=61.387s rc=124 note=Timeout after 60s

@@ -29,19 +29,15 @@
  */
 
 #include "base/functional/bind.h"
-#include "base/functional/callback_helpers.h"
 #include "base/test/launcher/unit_test_launcher.h"
 #include "base/test/test_suite.h"
 #include "starboard/client_porting/wrap_main/wrap_main.h"
-#include "third_party/blink/renderer/controller/tests/blink_test_suite.h"
-#include "third_party/blink/renderer/platform/wtf/functional.h"
 
 static int InitAndRunAllTests(int argc, char** argv) {
-  BlinkUnitTestSuite<base::TestSuite> test_suite(argc, argv);
+  base::TestSuite test_suite(argc, argv);
   return base::LaunchUnitTests(
       argc, argv,
-      WTF::BindOnce(&BlinkUnitTestSuite<base::TestSuite>::Run,
-                    base::Unretained(&test_suite)));
+      base::BindOnce(&base::TestSuite::Run, base::Unretained(&test_suite)));
 }
 
 SB_EXPORT STARBOARD_WRAP_SIMPLE_MAIN(InitAndRunAllTests)

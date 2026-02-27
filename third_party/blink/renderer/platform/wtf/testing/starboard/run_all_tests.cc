@@ -38,7 +38,8 @@
 static int InitAndRunAllTests(int argc, char** argv) {
   WTF::Partitions::Initialize();
   WTF::Initialize();
-  return base::RunUnitTestsUsingBaseTestSuite(argc, argv);
+  base::TestSuite test_suite(argc, argv);
+  return test_suite.Run();
 }
 
 SB_EXPORT STARBOARD_WRAP_SIMPLE_MAIN(InitAndRunAllTests)

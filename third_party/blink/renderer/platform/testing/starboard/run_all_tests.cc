@@ -51,6 +51,7 @@
 namespace {
 
 int runTestSuite(base::TestSuite* testSuite) {
+  // Run gtests directly on this thread.
   int result = testSuite->Run();
   {
     base::test::TaskEnvironment task_environment_;
@@ -62,15 +63,11 @@ int runTestSuite(base::TestSuite* testSuite) {
 }  // namespace
 
 static int InitAndRunAllTests(int argc, char** argv) {
+  // IMPORTANT: mark THIS thread as Blink/WTF main thread.
+  WTF::Initialize();
+
   blink::ScopedUnittestsEnvironmentSetup testEnvironmentSetup(argc, argv);
   int result = 0;
-
-#if BUILDFLAG(IS_FUCHSIA)
-  // Some unittests depend on specific fonts provided by the system (e.g. some
-  // tests load Arial). On Fuchsia the default font set contains only Roboto.
-  // Load //third_party/test_fonts to make these tests pass on Fuchsia.
-  skia::InitializeSkFontMgrForTest();
-#endif
 
   {
     base::TestSuite testSuite(argc, argv);
@@ -81,8 +78,9 @@ static int InitAndRunAllTests(int argc, char** argv) {
         mojo::core::ScopedIPCSupport::ShutdownPolicy::CLEAN);
     gin::IsolateHolder::Initialize(gin::IsolateHolder::kStrictMode,
                                    gin::ArrayBufferAllocator::SharedInstance());
-    result = base::LaunchUnitTests(
-        argc, argv, base::BindOnce(runTestSuite, base::Unretained(&testSuite)));
+
+    // IMPORTANT: do NOT use base::LaunchUnitTests on Starboard.
+    result = runTestSuite(&testSuite);
   }
   return result;
 }

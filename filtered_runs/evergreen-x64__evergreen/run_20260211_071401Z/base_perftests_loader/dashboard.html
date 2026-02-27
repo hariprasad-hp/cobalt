@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Dashboard - base_perftests_loader</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 18px; }
+    table { border-collapse: collapse; width: 100%; margin: 10px 0 22px 0; }
+    th, td { border: 1px solid #ddd; padding: 8px; vertical-align: top; }
+    th { background: #f4f4f4; text-align: left; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .meta { margin-bottom: 12px; color: #333; }
+  </style>
+</head>
+<body>
+  <h1>Module Dashboard — base_perftests_loader</h1>
+  <div class="meta">
+    <div><b>Run</b>: <code>run_20260211_071401Z</code></div>
+    <div><b>Time</b>: <code>2026-02-11T07:15:07Z</code></div>
+    <div><b>Flavor</b>: <code>evergreen</code></div>
+    <div><b>Out Dir</b>: <code>/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel</code></div>
+    <div><b>Runner</b>: <code>/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel/base_perftests_loader.py</code></div>
+    <div><b>Filter JSON</b>: <code>/home/ubuntu/youtube/feb4/cobalt/src/cobalt/testing/filters/evergreen-x64/base_perftests_loader_filter.json</code></div>
+    <div><b>Workers</b>: <code>161</code></div>
+    <div><b>Planned tests</b>: <code>161</code></div>
+    <div><b>Pattern count</b>: <code>3</code></div>
+  </div>
+
+  <h2>Removed (PASS)</h2>
+  <table>
+    <thead><tr>
+      <th>Pattern</th><th>Status</th><th>Matched</th><th>PASS</th><th>FAIL</th><th>TIMEOUT</th><th>ERROR</th><th>Reason</th>
+    </tr></thead>
+    <tbody><tr><td><code>JobPerfTest.*</code></td><td>PASS</td><td>14</td><td>14</td><td>0</td><td>0</td><td>0</td><td>All matched tests passed</td></tr></tbody>
+  </table>
+
+  <h2>Kept</h2>
+  <table>
+    <thead><tr>
+      <th>Pattern</th><th>Status</th><th>Matched</th><th>PASS</th><th>FAIL</th><th>TIMEOUT</th><th>ERROR</th><th>Reason</th>
+    </tr></thead>
+    <tbody><tr><td><code>PartitionAllocMemoryAllocationPerfTest.*</code></td><td>KEEP</td><td>144</td><td>129</td><td>0</td><td>15</td><td>0</td><td>Failures remain: fail=0 timeout=15 error=0. Top: PartitionAllocMemoryAllocationPerfTest.DirectMapped/2 (TIMEOUT); PartitionAllocMemoryAllocationPerfTest.DirectMapped/4 (TIMEOUT); PartitionAllocMemoryAllocationPerfTest.DirectMapped/5 (TIMEOUT)</td></tr>
+<tr><td><code>StackTracePerfTest.*</code></td><td>KEEP</td><td>3</td><td>0</td><td>3</td><td>0</td><td>0</td><td>Failures remain: fail=3 timeout=0 error=0. Top: StackTracePerfTest.MultiObj/0 (FAILED: [  FAILED  ]); StackTracePerfTest.MultiObj/1 (FAILED: [  FAILED  ]); StackTracePerfTest.MultiObj/2 (FAILED: [  FAILED  ])</td></tr></tbody>
+  </table>
+</body>
+</html>

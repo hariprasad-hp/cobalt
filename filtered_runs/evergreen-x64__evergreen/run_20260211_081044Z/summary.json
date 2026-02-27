@@ -1,0 +1,41 @@
+{
+  "run_id": "run_20260211_081044Z",
+  "started_utc": "2026-02-11T08:10:44Z",
+  "finished_utc": "2026-02-11T08:11:49Z",
+  "duration_sec": 64.598,
+  "duration": "64.6s",
+  "repo_root": "/home/ubuntu/youtube/feb4/cobalt/src",
+  "flavor": "evergreen",
+  "platform": "evergreen-x64",
+  "out_dir": "/home/ubuntu/youtube/feb4/cobalt/src/out/evergreen-x64_devel",
+  "filters_dir": "/home/ubuntu/youtube/feb4/cobalt/src/cobalt/testing/filters/evergreen-x64",
+  "workers": "161",
+  "timeout_sec": "60",
+  "updated_filters_dir": "/home/ubuntu/youtube/feb4/cobalt/src/filtered_runs/evergreen-x64__evergreen/run_20260211_081044Z/updated_filters",
+  "planned_tests_file": "/home/ubuntu/youtube/feb4/cobalt/src/filtered_runs/evergreen-x64__evergreen/run_20260211_081044Z/planned_tests.txt",
+  "run_log": "/home/ubuntu/youtube/feb4/cobalt/src/filtered_runs/evergreen-x64__evergreen/run_20260211_081044Z/run.log",
+  "jsonl_results": "/home/ubuntu/youtube/feb4/cobalt/src/filtered_runs/evergreen-x64__evergreen/run_20260211_081044Z/test_summary.jsonl",
+  "report_txt": "/home/ubuntu/youtube/feb4/cobalt/src/filtered_runs/evergreen-x64__evergreen/run_20260211_081044Z/report.txt",
+  "git": {
+    "repo_dir": "/home/ubuntu/youtube/feb4/cobalt/src",
+    "branch": "main",
+    "head_commit": "bd38dfe1bc31e185f0dc92abaa5566dc219ad60b",
+    "head_commit_date": "2026-02-09T15:43:50-08:00",
+    "origin_main_commit": "bd38dfe1bc31e185f0dc92abaa5566dc219ad60b",
+    "origin_main_date": "2026-02-09T15:43:50-08:00",
+    "working_tree_dirty": "yes"
+  },
+  "totals": {
+    "PASSED": 145,
+    "FAILED": 3,
+    "TIMEOUT": 13,
+    "ERROR": 0,
+    "SKIPPED": 0
+  },
+  "skipped_modules": {},
+  "notes": {
+    "isolate_tmp": true,
+    "per_module_parallel": 0,
+    "retries": 0
+  }
+}

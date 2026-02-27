@@ -106,6 +106,7 @@ TEST(FunctionalTest, ThreadRestriction) {
   thread.Stop();
 
   ASSERT_TRUE(closure);
+  delete closure;
   EXPECT_DCHECK_DEATH(std::move(*closure).Run());
   EXPECT_DCHECK_DEATH(delete closure);
 }
