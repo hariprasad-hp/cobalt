@@ -1,4 +1,4 @@
-// Copyright 2026 The Cobalt Authors. All Rights Reserved.
+// Copyright 2025 The Cobalt Authors. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,17 +12,25 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef COBALT_BROWSER_H5VCC_ACCESSIBILITY_VOICE_OVER_STATUS_MONITOR_TVOS_H_
-#define COBALT_BROWSER_H5VCC_ACCESSIBILITY_VOICE_OVER_STATUS_MONITOR_TVOS_H_
+#ifndef COBALT_BROWSER_HANG_WATCHER_DELEGATE_IMPL_H_
+#define COBALT_BROWSER_HANG_WATCHER_DELEGATE_IMPL_H_
+
+#include "base/threading/hang_watcher.h"
 
 namespace cobalt {
 namespace browser {
 
-// Starts monitoring VoiceOver status change notifications from the platform
-// and forwarding them to H5vccAccessibilityManager.
-void InstallVoiceOverStatusMonitor();
+class CobaltHangWatcherDelegate : public base::HangWatcher::Delegate {
+ public:
+  CobaltHangWatcherDelegate() = default;
+  ~CobaltHangWatcherDelegate() override = default;
+
+  static void Initialize();
+
+  bool IsHangReportingEnabled() override;
+};
 
 }  // namespace browser
 }  // namespace cobalt
 
-#endif  // COBALT_BROWSER_H5VCC_ACCESSIBILITY_VOICE_OVER_STATUS_MONITOR_TVOS_H_
+#endif  // COBALT_BROWSER_HANG_WATCHER_DELEGATE_IMPL_H_
