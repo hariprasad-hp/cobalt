@@ -43,17 +43,14 @@ runs:
 
     - name: Login to GAR
       run: |
-        # Login to GAR
-        TOKEN_ENDPOINT="http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token"
-        ACCESS_TOKEN=$(curl -H 'Metadata-Flavor: Google' ${TOKEN_ENDPOINT} | jq -r .access_token)
-
-        # Login to GAR to be able to push images created by fork based PR workflows.
+        set -e
+    
+        # Use gcloud-based auth on a personal self-hosted runner.
         if [[ "${{ inputs.is_pr }}" == "true" ]]; then
-          printf ${ACCESS_TOKEN} | docker login -u oauth2accesstoken --password-stdin https://us-central1-docker.pkg.dev
+          gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
         fi
-
-        # Login to Marketplace GAR to be able to pull base images.
-        printf ${ACCESS_TOKEN} | docker login -u oauth2accesstoken --password-stdin https://marketplace.gcr.io
+    
+        gcloud auth configure-docker marketplace.gcr.io --quiet
       shell: bash
 
     - name: Login to GitHub Docker Registry
